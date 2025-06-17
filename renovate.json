@@ -1,12 +1,4 @@
 {
   "dependencyDashboard": true,
-  "hostRules": [
-    {
-      "hostType": "docker",
-      "matchHost": "quay.io",
-      "username": "{{secrets.QUAY_USERNAME}}",
-      "password": "{{secrets.QUAY_PASSWORD}}"
-    }
-  ],
   "extends": ["config:best-practices"]
 }
