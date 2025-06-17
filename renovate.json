@@ -1,0 +1,12 @@
+{
+  "dependencyDashboard": true,
+  "hostRules": [
+    {
+      "hostType": "docker",
+      "matchHost": "quay.io",
+      "username": "{{env.QUAY_USERNAME}}",
+      "password": "{{env.QUAY_PASSWORD}}"
+    }
+  ],
+  "extends": ["config:base"]
+}
