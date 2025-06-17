@@ -4,8 +4,8 @@
     {
       "hostType": "docker",
       "matchHost": "quay.io",
-      "username": "{{env.QUAY_USERNAME}}",
-      "password": "{{env.QUAY_PASSWORD}}"
+      "username": "{{secrets.QUAY_USERNAME}}",
+      "password": "{{secrets.QUAY_PASSWORD}}"
     }
   ],
   "extends": ["config:base"]
