@@ -8,5 +8,5 @@
       "password": "{{secrets.QUAY_PASSWORD}}"
     }
   ],
-  "extends": ["config:base"]
+  "extends": ["config:best-practices"]
 }
