@@ -1,3 +1,6 @@
 {
-  "dependencyDashboard": true
+  "dependencyDashboard": true,
+  "ignorePresets": [
+    "docker:pinDigests"
+  ],
 }
